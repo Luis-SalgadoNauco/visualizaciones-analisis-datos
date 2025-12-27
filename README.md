@@ -121,7 +121,7 @@ Evidencia generada:
 
 El repositorio se organiza por días de trabajo, permitiendo un seguimiento progresivo del aprendizaje y facilitando la reproducibilidad del análisis.
 
-```text
+
 visualizaciones-analisis-datos/
 ├── dia_1/
 │   ├── paletas_color_dia1.ipynb
