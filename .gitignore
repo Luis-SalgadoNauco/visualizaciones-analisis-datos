@@ -1,1 +1,40 @@
-.ipynb_checkpoints/ 
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.venv
+venv/
+ENV/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Archivos temporales y del sistema
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Entornos de desarrollo
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Archivos de salida (opcional)
+# ===============================
+# Descomenta si no quieres versionar imágenes generadas
+# *.png
+
+# ===============================
+# Logs
+# ===============================
+*.log
