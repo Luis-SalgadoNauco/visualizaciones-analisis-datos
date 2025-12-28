@@ -122,6 +122,7 @@ Archivos generados durante el Día 1:
   - Diagramas de dispersión
   - Series temporales
 - Introducción a dashboards exploratorios estáticos
+- Creación y uso de plantillas visuales reutilizables (`.mplstyle`)
 
 ---
 
@@ -195,12 +196,104 @@ Archivos generados durante el Día 2:
 - `analisis_univariado_empresarial.png`
 - `analisis_bivariado_empresarial.png`
 - `dataset_y_tablas_dia2_analisis_visual.xlsx`
+- `estilo_profesional.mplstyle`
 
 ---
 
+## Día 3 — Diseño de dashboards analíticos avanzados
+
+### Contenidos abordados
+
+- Diseño de figuras compuestas con subtramas
+- Uso avanzado de `GridSpec` para layouts flexibles
+- Arquitecturas de dashboards:
+  - KPIs ejecutivos
+  - Gráficos principales y secundarios
+- Coordinación visual entre subtramas:
+  - Escalas compartidas
+  - Paletas consistentes
+- Visualizaciones estadísticas avanzadas:
+  - Heatmaps de correlación
+  - Violin plots
+- Construcción de dashboards ejecutivos estáticos
+- Preparación de evidencia reproducible para análisis empresarial
+
+---
+
+### Dataset utilizado
+
+Dataset de comercio electrónico simulado con información de:
+
+- Órdenes
+- Clientes
+- Categorías de producto
+- Regiones
+- Métodos de pago
+- Métricas monetarias
+
+Archivo Excel generado para asegurar reproducibilidad total del análisis:
+
+**dataset_y_tablas_dashboard_ecommerce_dia3.xlsx**
+
+Incluye:
+
+- Dataset completo de e-commerce (2.000 órdenes)
+- Ventas agregadas por mes
+- Ventas por categoría
+- Distribución por método de pago
+- Métricas por región
+- Ticket promedio por día de la semana
+
+---
+
+### Visualizaciones generadas
+
+- Panel de KPIs ejecutivos
+- Evolución mensual de ventas
+- Ventas por categoría
+- Distribución de métodos de pago
+- Heatmap de correlaciones
+- Distribución de ventas por región (violin plot)
+- Ticket promedio por día de la semana
+
+Evidencia principal:
+
+- `dashboard_ecommerce_completo.png`
+
+---
+
+### Verificación e insights del negocio
+
+- **Visión ejecutiva:**  
+  Los KPIs permiten una lectura inmediata del desempeño global.
+
+- **Patrones temporales:**  
+  Se identifican tendencias mensuales relevantes para planificación.
+
+- **Preferencias de pago:**  
+  Alta concentración en tarjeta sugiere dependencia de un método dominante.
+
+- **Diferencias regionales:**  
+  La dispersión por región evidencia comportamientos heterogéneos.
+
+- **Comportamiento semanal:**  
+  Variaciones en ticket promedio aportan insumos para campañas comerciales.
+
+---
+
+### Evidencia generada
+
+Archivos generados durante el Día 3:
+
+- `dashboard_ecommerce_dia3.ipynb`
+- `dashboard_ecommerce_completo.png`
+- `dataset_y_tablas_dashboard_ecommerce_dia3.xlsx`
+
+---
+
+
 ## Días siguientes
 
-- **Día 3:** Pendiente
 - **Día 4:** Pendiente
 - **Día 5:** Pendiente
 
@@ -232,8 +325,12 @@ visualizaciones-analisis-datos/
 │   ├── analisis_visual_empresarial_dia2.ipynb
 │   ├── analisis_univariado_empresarial.png
 │   ├── analisis_bivariado_empresarial.png
-│   └── dataset_y_tablas_dia2_analisis_visual.xlsx
+│   ├── dataset_y_tablas_dia2_analisis_visual.xlsx
+│   └── estilo_profesional.mplstyle
 ├── dia_3/
+│   ├── dashboard_ecommerce_dia3.ipynb
+│   ├── dashboard_ecommerce_completo.png
+│   └── dataset_y_tablas_dashboard_ecommerce_dia3.xlsx
 ├── dia_4/
 └── dia_5/
 
