@@ -379,10 +379,136 @@ Archivos generados durante el Día 4:
 
 ---
 
+## Día 5 — Comparación de herramientas de visualización y criterios de selección
 
-## Días siguientes
+### Contenidos abordados
 
-- **Día 5:** Pendiente
+- Comparación práctica de herramientas de visualización en Python:
+  - Seaborn
+  - Plotly
+  - Pandas plotting (backend Matplotlib)
+- Análisis de ventajas y limitaciones según contexto de uso
+- Visualización estadística vs interactividad
+- Exploración rápida vs dashboards reproducibles
+- Generación de evidencia visual y datasets reproducibles
+- Buenas prácticas para selección de herramientas en proyectos reales
+
+---
+
+### Dataset utilizado
+
+Dataset simulado de análisis de ventas con métricas comerciales y segmentación de clientes.
+
+Archivo Excel generado para asegurar reproducibilidad total del análisis:
+
+**dataset_y_tablas_analisis_ventas_dia5.xlsx**
+
+Incluye:
+
+- Dataset completo de ventas (1.000 registros)
+- Ventas y beneficios por región
+- Ventas por categoría
+- Tendencia temporal mensual
+- Métricas derivadas:
+  - Beneficio
+  - Margen
+  - Agregaciones por tipo de cliente
+
+---
+
+### Visualizaciones generadas
+
+**Seaborn — Visualización estadística:**
+
+- Boxplot de ventas por región
+- Scatter plot ventas vs beneficio con segmentación por tipo de cliente
+- Heatmap de ventas promedio por categoría y región
+- Tendencia mensual de ventas
+
+Evidencia:
+
+- `analisis_seaborn_comparacion_ventas_dia5.png`
+
+---
+
+**Plotly — Dashboard interactivo:**
+
+- Ventas totales por región (barra interactiva)
+- Distribución de ventas por categoría (pie interactivo)
+- Tendencia mensual de ventas (línea interactiva)
+- Relación beneficio vs ventas con escala de color por margen
+
+Evidencia:
+
+- `dashboard_plotly_comparacion_ventas_dia5.html`
+
+---
+
+**Pandas plotting — Análisis exploratorio rápido:**
+
+- Histograma de ventas
+- Boxplot de ventas por región
+- Scatter beneficio vs ventas
+- Tendencia mensual
+- Ventas por categoría
+- Área acumulada por tipo de cliente
+
+Evidencia:
+
+- `analisis_pandas_plotting_comparacion_ventas_dia5.png`
+
+---
+
+### Verificación y criterios de selección de herramientas
+
+A partir del ejercicio comparativo se establecen los siguientes criterios de uso:
+
+- **Pandas plotting:**  
+  Ideal para análisis exploratorios rápidos y estadísticas descriptivas sobre datasets estáticos, con mínimo esfuerzo y máxima integración con Pandas.
+
+- **Seaborn:**  
+  Recomendado para visualizaciones estadísticas con mejor estética y valores por defecto profesionales, especialmente en análisis exploratorio y presentación técnica.
+
+- **Plotly:**  
+  Herramienta preferida cuando se requiere interactividad, exploración dinámica, dashboards web o visualizaciones sobre datos que se actualizan constantemente.
+
+**Factores clave de decisión:**
+
+- Complejidad del análisis
+- Nivel de interactividad requerido
+- Audiencia objetivo
+- Rendimiento
+- Facilidad de uso
+- Reproducibilidad del resultado
+
+---
+
+### Evidencia generada
+
+Archivos generados durante el Día 5:
+
+- `comparacion_herramientas_analisis_ventas_dia5.ipynb`
+- `analisis_seaborn_comparacion_ventas_dia5.png`
+- `analisis_pandas_plotting_comparacion_ventas_dia5.png`
+- `dashboard_plotly_comparacion_ventas_dia5.html`
+- `dataset_y_tablas_analisis_ventas_dia5.xlsx`
+
+---
+
+## Cierre de la semana
+
+Durante esta semana de trabajo se recorrió un proceso completo de **visualización y comunicación de datos**, avanzando desde los fundamentos perceptivos hasta la comparación profesional de herramientas de visualización.
+
+Se desarrollaron competencias en:
+
+- Comprensión cognitiva de la percepción visual
+- Diseño consciente de gráficos efectivos
+- Análisis exploratorio y estadístico
+- Construcción de dashboards analíticos
+- Storytelling con datos orientado a decisión
+- Selección adecuada de herramientas según contexto
+
+El resultado final es un repositorio **documentado, reproducible y versionado**, que evidencia no solo el dominio técnico de las librerías, sino también la capacidad de **pensar visualmente los datos para comunicar insights de negocio**.
 
 ---
 
@@ -392,14 +518,14 @@ Archivos generados durante el Día 4:
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
+- Plotly
 - Jupyter Notebook
 - Git / GitHub
 
 ---
 
 ## Estructura del proyecto
-
-El repositorio se organiza por días de trabajo, permitiendo un seguimiento progresivo del aprendizaje y facilitando la reproducibilidad del análisis.
 
 ```text
 visualizaciones-analisis-datos/
@@ -424,6 +550,11 @@ visualizaciones-analisis-datos/
 │   ├── diapositiva_01_titulo.png
 │   ├── diapositiva_02_insights_principales.png
 │   └── diapositiva_03_recomendaciones.png
-└── dia_5/
+├── dia_5/
+│   ├── comparacion_herramientas_analisis_ventas_dia5.ipynb
+│   ├── analisis_seaborn_comparacion_ventas_dia5.png
+│   ├── analisis_pandas_plotting_comparacion_ventas_dia5.png
+│   ├── dashboard_plotly_comparacion_ventas_dia5.html
+│   └── dataset_y_tablas_analisis_ventas_dia5.xlsx
 
 ```
