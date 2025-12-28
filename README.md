@@ -291,10 +291,97 @@ Archivos generados durante el Día 3:
 
 ---
 
+## Día 4 — Storytelling con datos y presentaciones analíticas impactantes
+
+### Contenidos abordados
+
+- Estructura de una historia de datos efectiva:
+  - Contexto del problema de negocio
+  - Evidencia analítica
+  - Comunicación de insights
+  - Llamado a la acción
+- Principios de storytelling con datos:
+  - Progreso lógico de la narrativa
+  - Emoción + racionalidad
+  - Relevancia contextual según audiencia
+- Jerarquía visual y diseño de atención:
+  - Tamaño y posición de elementos
+  - Sistemas de color jerárquicos
+  - Layouts ejecutivos con `GridSpec`
+- Técnicas de énfasis visual:
+  - Aislamiento de insights clave
+  - Contraste extremo
+  - Uso de anotaciones, flechas y zonas de atención
+- Comunicación persuasiva basada en datos:
+  - Traducción de análisis a decisiones
+  - Recomendaciones priorizadas
+  - Definición de próximos pasos medibles
+
+---
+
+### Dataset utilizado
+
+Dataset simulado de rendimiento de ventas con foco ejecutivo.
+
+Archivo Excel generado para asegurar reproducibilidad total del análisis:
+
+**dataset_y_tablas_rendimiento_ventas_dia4.xlsx**
+
+Incluye:
+
+- Dataset base de ventas mensuales
+- Resumen ejecutivo de métricas clave
+- Cumplimiento mensual vs objetivo
+- Identificación de mejor y peor mes
+- Brecha de ventas bajo umbral crítico
+
+---
+
+### Visualizaciones generadas
+
+- Diapositiva de título y contexto ejecutivo
+- Diapositiva de insights principales con jerarquía visual
+- Diapositiva de recomendaciones estratégicas con llamado a la acción
+
+Evidencia visual:
+
+- `diapositiva_01_titulo.png`
+- `diapositiva_02_insights_principales.png`
+- `diapositiva_03_recomendaciones.png`
+
+---
+
+### Verificación e insights del negocio
+
+- **Lectura ejecutiva clara:**  
+  La jerarquía visual permite identificar rápidamente desempeño, riesgos y oportunidades.
+
+- **Narrativa coherente:**  
+  La presentación fluye desde el contexto hasta la acción, sin saltos cognitivos.
+
+- **Énfasis efectivo:**  
+  El uso de contraste y aislamiento asegura que los insights críticos no pasen desapercibidos.
+
+- **Accionabilidad:**  
+  Las recomendaciones están priorizadas y conectadas directamente con los datos analizados.
+
+---
+
+### Evidencia generada
+
+Archivos generados durante el Día 4:
+
+- `presentacion_analitica_rendimiento_ventas_dia4.ipynb`
+- `dataset_y_tablas_rendimiento_ventas_dia4.xlsx`
+- `diapositiva_01_titulo.png`
+- `diapositiva_02_insights_principales.png`
+- `diapositiva_03_recomendaciones.png`
+
+---
+
 
 ## Días siguientes
 
-- **Día 4:** Pendiente
 - **Día 5:** Pendiente
 
 ---
@@ -332,6 +419,11 @@ visualizaciones-analisis-datos/
 │   ├── dashboard_ecommerce_completo.png
 │   └── dataset_y_tablas_dashboard_ecommerce_dia3.xlsx
 ├── dia_4/
+│   ├── presentacion_analitica_rendimiento_ventas_dia4.ipynb
+│   ├── dataset_y_tablas_rendimiento_ventas_dia4.xlsx
+│   ├── diapositiva_01_titulo.png
+│   ├── diapositiva_02_insights_principales.png
+│   └── diapositiva_03_recomendaciones.png
 └── dia_5/
 
 ```
